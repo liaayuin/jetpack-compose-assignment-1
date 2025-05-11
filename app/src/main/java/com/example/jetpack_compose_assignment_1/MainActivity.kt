@@ -14,6 +14,8 @@ import com.example.jetpack_compose_assignment_1.screen.CourseListScreen
 import com.example.jetpack_compose_assignment_1.screen.OnboardingScreen
 import com.example.jetpack_compose_assignment_1.ui.theme.Jetpack_compose_assignment_1Theme
 
+val primaryColor = Color(0xFF007BFF)
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,7 +39,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-val primaryColor = Color(0xFF007BFF)
 
 
 
