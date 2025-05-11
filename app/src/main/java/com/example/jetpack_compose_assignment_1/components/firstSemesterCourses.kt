@@ -2,6 +2,7 @@ package com.example.jetpack_compose_assignment_1.components
 
 import com.example.jetpack_compose_assignment_1.Course
 
+
 fun firstSemesterCourses(): List<Course> {
     return listOf(
         Course(
